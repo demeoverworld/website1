@@ -1,0 +1,662 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    animation-name: name;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav2{
+    height: 0px;
+    width: 0px;
+    visibility: none;
+    display: none;
+}
+
+@keyframes name{
+    0%{opacity: 0%; margin-left: -100;}
+    100%{opacity: 100%; margin-left: 0px;}
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+nav  img{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(126, 125, 125);
+}
+
+a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    color: #a26028;
+    transition: 0.5s;
+}
+
+.contact-form{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5f5;
+    color: rgb(126, 125, 125);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.Location{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form h1{
+    color: #242424;
+    font-weight: bold;
+    width: 250px;
+    height: 100px;
+}
+
+.contact-form .area{
+    color: #242424;
+    font-weight: bold;
+    margin-right: 140px;
+    margin-top: -50px;
+}
+
+.paragraph{
+    width: 200px;
+    height: 100px;
+    margin-right: 40px;
+    margin-top: -25px;
+}
+
+.ps1{
+    margin-left: 75px;
+}
+
+.ps2{
+    margin-left: 89px;
+}
+
+.a{
+    margin-right: 130px;
+    color: rgb(126, 125, 125);
+    text-decoration: none;
+}
+
+.Location h3{
+    margin-right: 130px;
+}
+
+form{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    position: relative;
+    right: 10px;
+}
+
+.box input{
+    margin-left: 10px;
+}
+
+#Name{
+    border: none;
+    border-bottom: 1px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+}
+
+#Last{
+    border: none;
+    border-bottom: 1px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+}
+
+#email{
+    border: none;
+    border-bottom: 1px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+    margin-top: 30px;
+}
+
+#Phone{
+    border: none;
+    border-bottom: 1px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+    margin-top: 30px;
+}
+
+#Name:hover{
+    border: none;
+    border-bottom: 2px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+}
+
+#Last:hover{
+    border: none;
+    border-bottom: 2px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+}
+
+#email:hover{
+    border: none;
+    border-bottom: 2px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+    margin-top: 30px;
+}
+
+#Phone:hover{
+    border: none;
+    border-bottom: 2px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+    margin-top: 30px;
+}
+
+.name{
+    position: absolute;
+    top: -20px;
+    left: 9px;
+}
+
+.last{
+    position: absolute;
+    left: 185px;
+    top: -20px;
+}
+
+.email{
+    position: absolute;
+    left: 9px;
+    top: 30px;
+}
+
+.phone{
+    position: absolute;
+    left: 185px;
+    top: 30px;
+}
+
+#button{
+    width: 340px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 25px;
+    margin-left: -60px;
+    background-color: #242424;
+    height: 40px;
+}
+
+#button:hover{
+    width: 340px;
+    height: 50px;
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: -60px;
+    background-color: #a26028;
+    height: 40px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-right: 60px;
+}
+
+.box1 input{
+    border: none;
+    border-bottom: 1px solid #242424;
+    background-color: unset;
+    outline: 0;
+    width: 340px;
+    color: #242424;
+    margin-top: 25px;
+}
+
+.box1 input:hover{
+    border: none;
+    border-bottom: 2px solid #242424;
+    background-color: unset;
+    outline: 0;
+    color: #242424;
+    width: 340px;
+    margin-top: 25px;
+}
+
+.box1 label{
+    margin-top: 10px;
+}
+
+#textarea{
+    height: 80px;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.iframe{
+    width: 100%;
+    height: 50%;
+}
+
+.iframe iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.h{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.h h3{
+    color: rgb(126, 125, 125);
+    display: inline;
+}
+
+.h i{
+    color: #242424;
+}
+
+
+@media screen and (max-width: 767px){
+    body{
+        margin: 0;
+        background-color: #f5f5f5;
+        animation-name: name;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes name{
+        0%{opacity: 0%; margin-left: -100;}
+        100%{opacity: 100%; margin-left: 0px;}
+    }
+    
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f5f5;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+
+    
+    .nav1{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+        display: none;
+    }
+    
+    .nav1 img{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+        display: none;
+    }
+    
+    ul{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+    }
+    
+    li{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+    }
+    
+    a{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+    }
+    
+    a:hover{
+        height: 0px;
+        width: 0px;
+        visibility: none;
+    }
+    
+    .contact-form{
+        width: 100%;
+        height: 950px;
+        background-color: #f5f5f5;
+        color: rgb(126, 125, 125);
+        display: flex;
+        margin-top:40%;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .Location{
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-form h1{
+        color: #242424;
+        font-weight: bold;
+        width: 250px;
+        height: 100px;
+    }
+    
+    .contact-form .area{
+        color: #242424;
+        font-weight: bold;
+        margin-right: 140px;
+        margin-top: -50px;
+    }
+    
+    .paragraph{
+        width: 200px;
+        height: 100px;
+        margin-right: 40px;
+        margin-top: -25px;
+        color: rgb(126, 125, 125);
+    }
+
+    .ps1{
+        margin-left: 30px;
+        color: rgb(126, 125, 125);
+    }
+    
+    .ps2{
+        margin-left: 30px;
+        color: rgb(126, 125, 125);
+    }
+    
+    .a{
+        margin-left: 0px;
+        color: rgb(126, 125, 125);
+    }
+    
+    .Location h3{
+        margin-left: 0px;
+        color: rgb(126, 125, 125);
+    }
+    
+    form{
+        width: 50%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 150px;
+    }
+    
+    .box input{
+        margin-left: 10px;
+    }
+    
+    #Name{
+        border: none;
+        border-bottom: 1px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+    }
+    
+    #Last{
+        border: none;
+        border-bottom: 1px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+    }
+    
+    #email{
+        border: none;
+        border-bottom: 1px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+        margin-top: 30px;
+    }
+    
+    #Phone{
+        border: none;
+        border-bottom: 1px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+        margin-top: 30px;
+    }
+    
+    #Name:hover{
+        border: none;
+        border-bottom: 2px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+    }
+    
+    #Last:hover{
+        border: none;
+        border-bottom: 2px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+    }
+    
+    #email:hover{
+        border: none;
+        border-bottom: 2px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+        margin-top: 30px;
+    }
+    
+    #Phone:hover{
+        border: none;
+        border-bottom: 2px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+        margin-top: 30px;
+    }
+    
+    .name{
+        position: absolute;
+        top: -20px;
+        left: 9px;
+    }
+    
+    .last{
+        position: absolute;
+        left: 185px;
+        top: -20px;
+    }
+    
+    .email{
+        position: absolute;
+        left: 9px;
+        top: 30px;
+    }
+    
+    .phone{
+        position: absolute;
+        left: 185px;
+        top: 30px;
+    }
+    
+    #button{
+        width: 340px;
+        color: #f5f5f5;
+        background-color: #242424;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.5s;
+        margin-top: 25px;
+        margin-left: -60px;
+        height: 40px;
+    }
+    
+    #button:hover{
+        width: 340px;
+        height: 50px;
+        color: #f5f5f5;
+        background-color: #a26028;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-left: -60px;
+        height: 40px;
+    }
+    
+    .box1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-right: 60px;
+    }
+    
+    .box1 input{
+        border: none;
+        border-bottom: 1px solid #242424;
+        background-color: unset;
+        outline: 0;
+        width: 340px;
+        color: #242424;
+        margin-top: 25px;
+    }
+    
+    .box1 input:hover{
+        border: none;
+        border-bottom: 2px solid #242424;
+        background-color: unset;
+        outline: 0;
+        color: #242424;
+        width: 340px;
+        margin-top: 25px;
+    }
+    
+    .box1 label{
+        margin-top: 10px;
+    }
+    
+    #textarea{
+        height: 80px;
+    }
+    
+    footer{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        width: 100%;
+        height: 400px;
+        padding-top: 50px;
+    }
+    
+    .iframe{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .iframe iframe{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .h{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 400px;
+    }
+    
+    .h h3{
+        color: rgb(126, 125, 125);
+        display: inline;
+    }
+    
+    .h i{
+        color: #242424;
+    }
+}
